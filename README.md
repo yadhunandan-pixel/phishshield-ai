@@ -1,16 +1,43 @@
-# React + Vite
+🛡️ PhishShield AI – Real-Time Phishing Detection System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Overview
+PhishShield AI is a web-based cybersecurity tool designed to detect phishing messages in real-time. It analyzes suspicious text using pattern-based logic, identifies potential threats, and provides a risk score along with an explanation.
 
-Currently, two official plugins are available:
+🎯 Problem Statement
+Phishing attacks are one of the most common cybersecurity threats, where users are tricked into revealing sensitive information through deceptive messages. Many users fail to identify such attacks, leading to financial and data loss.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+💡 Solution
+PhishShield AI provides an intelligent system that:
+    Analyzes suspicious messages
+    Detects phishing indicators (keywords, links, patterns)
+    Assigns a dynamic risk score
+    Highlights suspicious content
+    Generates AI-style explanations
+    
+✨ Features
+🔍 Real-time phishing detection
+📊 Risk scoring system
+🎯 Keyword & link analysis
+🧠 AI-style explanation engine
+🎨 Modern responsive UI
+⚡ Scan animation for better UX
 
-## React Compiler
+🛠️ Tech Stack
+React.js (Vite)
+Tailwind CSS
+JavaScript
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+⚙️ Installation & Setup
+git clone https://github.com/yadhunandan-pixel/phishshield-ai.git
+cd phishshield-ai
+npm install
+npm run dev
 
-## Expanding the ESLint configuration
+🧪 Example Test Input
+Urgent! Click here to verify your bank account and enter your OTP immediately: http://fake-link.com
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📈 Future Improvements
+AI/ML-based phishing detection
+Browser extension integration
+Email/SMS scanning API
+Advanced NLP analysis

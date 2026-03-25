@@ -47,8 +47,13 @@ cd phishshield-ai
 npm install
 npm run dev
 
+LIVE DEMO LINK : https://phishshieldaii.netlify.app/
+
 ---
 
 ## 🧪 Example Test Input
 
 - Urgent! Click here to verify your bank account and enter your OTP immediately: http://fake-link.com
+
+---
+
